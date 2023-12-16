@@ -1,0 +1,26 @@
+.final-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  font-family: Merriweather, Arial;
+  color: white;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.description {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.gif2 {
+  height: 480px;
+  width: 415px;
+}

@@ -1,0 +1,58 @@
+
+
+.all-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: Merriweather, Arial;
+}
+
+.q {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.gif {
+  width: 480px;
+  height: 270px;
+}
+
+.yes-b, .no-b {
+  font-size: 20px;
+  height: 6vh;
+  width: 5vw;
+  background-color: rgb(31, 145, 238);
+  color: white;
+  border: none;
+  border-radius: 20px;
+
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.yes-b {
+  position: absolute;
+  top: 60%;
+  left: 42%;
+}
+
+.no-b {
+  position: absolute;
+  transition: top .1s, left .1s;
+}
+
+.yes-b:hover, .no-b:hover {
+  background-color: white;
+  color: rgb(31, 145, 238);
+}
+

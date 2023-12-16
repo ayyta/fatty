@@ -1,0 +1,6 @@
+body, html {
+  margin: 0 0;
+  background-color: rgb(86, 171, 240);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
